@@ -1,0 +1,1447 @@
+[
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "City",
+    "expression": "value.trim()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column City using expression value.trim()"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "City",
+    "expression": "value.replace(/\\s+/,' ')",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column City using expression value.replace(/\\s+/,' ')"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "State",
+    "expression": "value.trim()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column State using expression value.trim()"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "State",
+    "expression": "value.replace(/\\s+/,' ')",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column State using expression value.replace(/\\s+/,' ')"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "BusinessType",
+    "expression": "value.trim()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column BusinessType using expression value.trim()"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "BusinessType",
+    "expression": "value.replace(/\\s+/,' ')",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column BusinessType using expression value.replace(/\\s+/,' ')"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "RaceEthnicity",
+    "expression": "value.trim()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column RaceEthnicity using expression value.trim()"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "RaceEthnicity",
+    "expression": "value.replace(/\\s+/,' ')",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column RaceEthnicity using expression value.replace(/\\s+/,' ')"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Gender",
+    "expression": "value.trim()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column Gender using expression value.trim()"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Gender",
+    "expression": "value.replace(/\\s+/,' ')",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column Gender using expression value.replace(/\\s+/,' ')"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Veteran",
+    "expression": "value.trim()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column Veteran using expression value.trim()"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Veteran",
+    "expression": "value.replace(/\\s+/,' ')",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column Veteran using expression value.replace(/\\s+/,' ')"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "NonProfit",
+    "expression": "value.trim()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column NonProfit using expression value.trim()"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "NonProfit",
+    "expression": "value.replace(/\\s+/,' ')",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column NonProfit using expression value.replace(/\\s+/,' ')"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Lender",
+    "expression": "value.trim()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column Lender using expression value.trim()"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Lender",
+    "expression": "value.replace(/\\s+/,' ')",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column Lender using expression value.replace(/\\s+/,' ')"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "CD",
+    "expression": "value.trim()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column CD using expression value.trim()"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "CD",
+    "expression": "value.replace(/\\s+/,' ')",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column CD using expression value.replace(/\\s+/,' ')"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "LoanAmount",
+    "expression": "value.toNumber()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column LoanAmount using expression value.toNumber()"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Zip",
+    "expression": "value.toNumber()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column Zip using expression value.toNumber()"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "NAICSCode",
+    "expression": "value.toNumber()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column NAICSCode using expression value.toNumber()"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "JobsReported",
+    "expression": "value.toNumber()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column JobsReported using expression value.toNumber()"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "DateApproved",
+    "expression": "value.toDate()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column DateApproved using expression value.toDate()"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "DateApproved",
+    "expression": "grel:toString(toDate(value),\"yyyy-MM-dd\")",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column DateApproved using expression grel:toString(toDate(value),\"yyyy-MM-dd\")"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "BusinessType",
+    "expression": "value.toTitlecase()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column BusinessType using expression value.toTitlecase()"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "City",
+    "expression": "value.toTitlecase()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column City using expression value.toTitlecase()"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "BusinessType",
+    "expression": "value.toTitlecase()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column BusinessType using expression value.toTitlecase()"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "RaceEthnicity",
+    "expression": "value.toTitlecase()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column RaceEthnicity using expression value.toTitlecase()"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Veteran",
+    "expression": "value.toTitlecase()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column Veteran using expression value.toTitlecase()"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "NonProfit",
+    "expression": "value.toTitlecase()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column NonProfit using expression value.toTitlecase()"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Lender",
+    "expression": "value.toTitlecase()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column Lender using expression value.toTitlecase()"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "CD",
+    "expression": "value.toUppercase()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column CD using expression value.toUppercase()"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "State",
+    "expression": "value.toUppercase()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column State using expression value.toUppercase()"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "City",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Pearl City",
+          "Pearl City City"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Pearl City"
+      },
+      {
+        "from": [
+          "Makawao",
+          "Makawao,"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Makawao"
+      },
+      {
+        "from": [
+          "Honoluu",
+          "Honolu.U"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Honoluu"
+      },
+      {
+        "from": [
+          "Kailua Kona",
+          "Kailua Kona,"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Kailua Kona"
+      },
+      {
+        "from": [
+          "Hon",
+          "Hon."
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Hon"
+      },
+      {
+        "from": [
+          "Hoolehua",
+          "Ho'olehua"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Hoolehua"
+      },
+      {
+        "from": [
+          "Papaikou",
+          "Papa'ikou"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Papaikou"
+      },
+      {
+        "from": [
+          "Kapaa",
+          "Kapa'a"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Kapaa"
+      },
+      {
+        "from": [
+          "Lanai City",
+          "Lanai City,"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Lanai City"
+      },
+      {
+        "from": [
+          "Honolulu",
+          "Honolulu,"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Honolulu"
+      },
+      {
+        "from": [
+          "Kailua-kona",
+          "Kailuakona"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Kailua-kona"
+      },
+      {
+        "from": [
+          "Naalehu",
+          "Na'alehu"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Naalehu"
+      },
+      {
+        "from": [
+          "Honokaa",
+          "Honoka'a"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Honokaa"
+      }
+    ],
+    "description": "Mass edit cells in column City"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "City",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Honolulu",
+          "Honoluluu",
+          "Honoluu",
+          "Honoluluq",
+          "Honoluulu"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Honolulu"
+      },
+      {
+        "from": [
+          "Kailua Kona",
+          "Kailua-kona",
+          "Kailua Konaa",
+          "Kaulua Kona"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Kailua Kona"
+      },
+      {
+        "from": [
+          "Honoluluu",
+          "Honolululu",
+          "Honoluluulu",
+          "Honoluulu"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Honoluluu"
+      },
+      {
+        "from": [
+          "Honolulu",
+          "Honoluluu",
+          "Honoluluq",
+          "Jonolulu"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Honolulu"
+      },
+      {
+        "from": [
+          "Honolulu",
+          "Honoluluu",
+          "Honoluliu"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Honolulu"
+      },
+      {
+        "from": [
+          "Honolulululu",
+          "Honoluluolulu",
+          "Honoluluulu"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Honolulululu"
+      },
+      {
+        "from": [
+          "Honoluluu",
+          "Honolululu",
+          "Honoluluulu"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Honoluluu"
+      },
+      {
+        "from": [
+          "Kaneohe",
+          "Kaneohee",
+          "Kaneohek"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Kaneohe"
+      },
+      {
+        "from": [
+          "Kailua Kona",
+          "Kailua Konaa",
+          "Kaulua Kona"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Kailua Kona"
+      },
+      {
+        "from": [
+          "Honoluluolulu",
+          "Honoluluonolulu",
+          "Honolulunolulu"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Honoluluolulu"
+      },
+      {
+        "from": [
+          "Waimanalo",
+          "Waiamanalo"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Waimanalo"
+      },
+      {
+        "from": [
+          "Kailua Konaa Kona",
+          "Kailua Konaua Kona"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Kailua Konaa Kona"
+      },
+      {
+        "from": [
+          "Kailua Konana",
+          "Kailua Konaona"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Kailua Konana"
+      },
+      {
+        "from": [
+          "Kaneohee",
+          "Kaneohek"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Kaneohee"
+      },
+      {
+        "from": [
+          "Waipahuaipahu",
+          "Waipahuipahu"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Waipahuaipahu"
+      },
+      {
+        "from": [
+          "Captain Cook",
+          "Capatain Cook"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Captain Cook"
+      },
+      {
+        "from": [
+          "Waipahuhu",
+          "Waipahuu"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Waipahuhu"
+      },
+      {
+        "from": [
+          "Waipahu",
+          "Waipahuu"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Waipahu"
+      },
+      {
+        "from": [
+          "Kaialu Kona",
+          "Kailu Kona"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Kaialu Kona"
+      },
+      {
+        "from": [
+          "Ewa Beach",
+          "Ewa Beaach"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Ewa Beach"
+      },
+      {
+        "from": [
+          "Honoluluonolulu",
+          "Honoluluhonolulu"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Honoluluonolulu"
+      },
+      {
+        "from": [
+          "Honoluluu",
+          "Honoluluq"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Honoluluu"
+      },
+      {
+        "from": [
+          "Honoulu",
+          "Honoulul"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Honoulu"
+      },
+      {
+        "from": [
+          "Kailua Kona",
+          "Kailua Konaa"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Kailua Kona"
+      },
+      {
+        "from": [
+          "Honoululu",
+          "Honoulul"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Honoululu"
+      },
+      {
+        "from": [
+          "Kailua Konaa",
+          "Kailua Konana"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Kailua Konaa"
+      },
+      {
+        "from": [
+          "Kailua Kona",
+          "Kailua Koja"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Kailua Kona"
+      }
+    ],
+    "description": "Mass edit cells in column City"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "City",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Kaneohe",
+          "Kaneohee"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Kaneohe"
+      },
+      {
+        "from": [
+          "Kailua Kona",
+          "Kailua Konaa"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Kailua Kona"
+      },
+      {
+        "from": [
+          "Kailua Konaa",
+          "Kailua Konana"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Kailua Konaa"
+      },
+      {
+        "from": [
+          "Honolulu",
+          "Honoluluu"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Honolulu"
+      },
+      {
+        "from": [
+          "Honolulululu",
+          "Honoluluolulu"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Honolulululu"
+      }
+    ],
+    "description": "Mass edit cells in column City"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "City",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Kailua Kona",
+          "Kailua Konaa"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Kailua Kona"
+      }
+    ],
+    "description": "Mass edit cells in column City"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "City",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Honolulu",
+          "Honolulululu",
+          "Honoluluonolulu"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Honolulu"
+      },
+      {
+        "from": [
+          "Makawao",
+          "Makawaoakawao",
+          "Makawaoawao"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Makawao"
+      },
+      {
+        "from": [
+          "Mililani",
+          "Mililanini",
+          "Mililanilani"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Mililani"
+      },
+      {
+        "from": [
+          "Kapolei",
+          "Kapoleipolei",
+          "Kapoleiei"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Kapolei"
+      },
+      {
+        "from": [
+          "Pearl City",
+          "Pearl Citypearl City",
+          "Pearl Cityrl City"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Pearl City"
+      },
+      {
+        "from": [
+          "Waipahu",
+          "Waipahuhu",
+          "Waipahuaipahu"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Waipahu"
+      },
+      {
+        "from": [
+          "Mililanini",
+          "Mililanilani"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Mililanini"
+      },
+      {
+        "from": [
+          "Waimanalo",
+          "Waimanaloanalo"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Waimanalo"
+      },
+      {
+        "from": [
+          "Pearl Citypearl City",
+          "Pearl Cityrl City"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Pearl Citypearl City"
+      },
+      {
+        "from": [
+          "Kahului",
+          "Kahuluiui"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Kahului"
+      },
+      {
+        "from": [
+          "Kailua",
+          "Kailuana"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Kailua"
+      },
+      {
+        "from": [
+          "Kapoleipolei",
+          "Kapoleiei"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Kapoleipolei"
+      },
+      {
+        "from": [
+          "Kaunakakai",
+          "Kaunakakaikakai"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Kaunakakai"
+      },
+      {
+        "from": [
+          "Ewa Beach",
+          "Ewa Beacheach"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Ewa Beach"
+      },
+      {
+        "from": [
+          "Kealakekua",
+          "Kealakekuakua"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Kealakekua"
+      },
+      {
+        "from": [
+          "Honolulululu",
+          "Honoluluonolulu"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Honolulululu"
+      },
+      {
+        "from": [
+          "Makawaoakawao",
+          "Makawaoawao"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Makawaoakawao"
+      },
+      {
+        "from": [
+          "Kailua Kona",
+          "Kailua Konaa Kona"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Kailua Kona"
+      },
+      {
+        "from": [
+          "Waipahuhu",
+          "Waipahuaipahu"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Waipahuhu"
+      },
+      {
+        "from": [
+          "Honoululu",
+          "Honoulu"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Honoululu"
+      },
+      {
+        "from": [
+          "Lahaina",
+          "Lahainana"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Lahaina"
+      }
+    ],
+    "description": "Mass edit cells in column City"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "City",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Makawao",
+          "Makawaoakawao"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Makawao"
+      },
+      {
+        "from": [
+          "Mililani",
+          "Mililanini"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Mililani"
+      },
+      {
+        "from": [
+          "Honolulu",
+          "Honolulululu"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Honolulu"
+      },
+      {
+        "from": [
+          "Kapolei",
+          "Kapoleipolei"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Kapolei"
+      },
+      {
+        "from": [
+          "Pearl City",
+          "Pearl Citypearl City"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Pearl City"
+      },
+      {
+        "from": [
+          "Waipahu",
+          "Waipahuhu"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Waipahu"
+      }
+    ],
+    "description": "Mass edit cells in column City"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "City",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Ocean View",
+          "Oceanview"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Ocean View"
+      }
+    ],
+    "description": "Mass edit cells in column City"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "City",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Lahaina",
+          "Lahaina Hi",
+          "Lahana",
+          "Lahania",
+          "Lahiana",
+          "Lahina"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Lahaina"
+      },
+      {
+        "from": [
+          "Honolulu",
+          "Honoululu",
+          "Honlulu",
+          "Honolulu, Hi"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Honolulu"
+      },
+      {
+        "from": [
+          "Kailua Kona",
+          "Kaialu Kona",
+          "Kailua-kona 96740",
+          "Kialua-kona"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Kailua Kona"
+      },
+      {
+        "from": [
+          "Haiku",
+          "Haikua"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Haiku"
+      },
+      {
+        "from": [
+          "Honokaa",
+          "Honkaa"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Honokaa"
+      },
+      {
+        "from": [
+          "Kapolei",
+          "Kapelei"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Kapolei"
+      },
+      {
+        "from": [
+          "Makawao",
+          "Makwao"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Makawao"
+      },
+      {
+        "from": [
+          "Kaunakakai",
+          "Kaunkakai"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Kaunakakai"
+      },
+      {
+        "from": [
+          "Aiea",
+          "Aieaea"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Aiea"
+      },
+      {
+        "from": [
+          "Kapaa",
+          "Kapaau"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Kapaa"
+      }
+    ],
+    "description": "Mass edit cells in column City"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "City",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Kaneohe",
+          "Kanehohe"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Kaneohe"
+      }
+    ],
+    "description": "Mass edit cells in column City"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Lender",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Firstbank",
+          "First Bank"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Firstbank"
+      }
+    ],
+    "description": "Mass edit cells in column Lender"
+  },
+  {
+    "op": "core/row-removal",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "CD",
+          "expression": "value",
+          "columnName": "CD",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "OR-02",
+                "l": "OR-02"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "description": "Remove rows"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "City",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Hololulu"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Honolulu"
+      }
+    ],
+    "description": "Mass edit cells in column City"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "City",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Honolulu (mccully - Moiliili)"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Honolulu"
+      }
+    ],
+    "description": "Mass edit cells in column City"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "City",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Hoolulu"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Honolulu"
+      }
+    ],
+    "description": "Mass edit cells in column City"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "NonProfit",
+    "description": "Remove column NonProfit"
+  }
+]
