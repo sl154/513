@@ -1,0 +1,72 @@
+import sqlite3
+import os
+import pandas as pd
+
+%reload_ext sql
+
+%%bash
+pwd
+ls ./data
+
+df = pd.read_csv("./data/Cleaned-PPP-Data-up-to-150k-080820-HI-csv.csv")
+
+df.shape
+
+%%bash
+sqlite3 ./ppp.db
+
+.header on
+.mode csv
+
+CREATE TABLE ppptable(
+	"LoanAmount"  INT,
+	"City"  TEXT,
+	"State" TEXT,
+	"Zip" INT,
+	"NAICSCode" INT,
+	"BusinessType"  TEXT,
+	"RaceEthnicity" TEXT,
+	"Gender"  TEXT,
+	"Veteran" TEXT,
+	"JobsReported"  INT,
+  "DateApproved"  DATETIME,
+  "Lender"  TEXT,
+  "CD"  TEXT
+);
+
+.import /Users/shuailili/Downloads/513-main/data/Cleaned-PPP-Data-up-to-150k-080820-HI-csv.csv ppptable
+
+.output ./ppp.sql
+.dump
+
+survey_db_url = 'sqlite:///' + os.path.expanduser('./ppp.db')
+%sql $survey_db_url
+
+%%sql
+select * from ppptable where LoanAmount is NULL or LoanAmount = '';
+select * from ppptable where City is NULL or City = '';
+select * from ppptable where BusinessType is NULL or BusinessType = '';
+select * from ppptable where DateApproved is NULL or DateApproved = '';
+select * from ppptable where Lender is NULL or Lender = '';
+
+%%sql
+select LoanAmount from ppptable
+where LoanAmount < 0 or LoanAmount > 150000
+
+%%sql
+select DateApproved from ppptable
+where DateApproved < 1/1/2020
+
+%%sql
+select State from ppptable
+where State != 'HI'
+
+%%sql
+select count(LoanAmount) from ppptable
+where 
+    LoanAmount < 30000 and
+    city = 'Honolulu' and 
+    BusinessType in ('Corporation', 'Limited Liability Company(llc)') and 
+    --DateApproved < 5/1/2020 and DateApproved > 3/31/2020 and 
+    Lender in ('Central Pacific Bank')
+    
